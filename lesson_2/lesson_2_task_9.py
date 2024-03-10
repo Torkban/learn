@@ -3,3 +3,5 @@ var_2 = 99
 zachem = var_1
 var_1 = var_2
 var_2 = zachem
+
+print(var_1, var_2)
