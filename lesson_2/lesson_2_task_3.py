@@ -1,8 +1,14 @@
-
+import math
 
 def square(a):
-    return ceil(a*a)
+    if a >= 0:
+        return math.ceil(a**2)
+    else:
+        return "Некорректное число"
 
-print(square(2))
+n = float(input("Введите длину стороны квадрата: "))
 
+square_area = square(n)
+
+print("Площадь квадрата: " + str(square_area))
 
