@@ -13,7 +13,7 @@ waiter = WebDriverWait(driver, 40)
 driver.get('https://bonigarcia.dev/selenium-webdriver-java/slow-calculator.html')
 
 driver.find_element(By.CSS_SELECTOR, '#delay').clear()
-driver.find_element(By.CSS_SELECTOR, '#delay').send_keys('4')
+driver.find_element(By.CSS_SELECTOR, '#delay').send_keys('45')
 driver.find_element(By.XPATH, '//span[contains(text(), "7")]').click()
 driver.find_element(By.XPATH, '//span[contains(text(), "+")]').click()
 driver.find_element(By.XPATH, '//span[contains(text(), "8")]').click()
